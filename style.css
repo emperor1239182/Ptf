@@ -1,0 +1,233 @@
+*{
+  box-sizing: border-box;
+    margin: 0;
+  }
+  html{
+  
+    font-weight: 65%;
+    font-family: Helvetica, sans-serif;
+  }
+  .languages{
+    margin: 40px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: azure;
+  }
+  .stacks{
+    list-style-type:circle ;
+    display: block;
+    color: white;
+    background-color: transparent;
+  }
+  .stacks > li{
+    margin: 10px;
+  }
+  
+  nav{
+   width: 100%;
+    position:fixed ;
+    top: 0;
+    z-index:1;
+  }
+  
+  .projects{
+  background-color: #2C3E50;
+    box-shadow: 2px 7px 3px #2C3E50;
+  }
+  .btn{
+  background-color:  #2C3E50;
+    text-align: center;
+    width: 170px;
+    margin: 80px auto 0px auto;
+    padding: 20px;
+    transition-duration: 0.7s;
+  }
+   a{
+  color: white;
+    font-weight: 700;
+  }
+  .btn:hover{
+   background-color: red;
+  }
+  .btn:hover a > i{
+  transform: translateX(5px);
+  }
+  .btn a > i {
+    margin-left: 1px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+  }
+  
+  ul{
+  list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #DE3163;
+    
+  }
+  li a{
+  text-decoration: none;
+    padding: 2rem;
+    font-size: 1.1rem;
+    display: block;
+    color: white;
+  }
+  h1{
+  font-size: 2.0rem;
+    color: white;
+    text-align: center;
+  }
+  .red{
+  font-size: 2.2rem;
+    color: red;
+    font-style: italic;
+  }
+  h2{
+  text-align: center;
+    color: white;
+    padding: 5rem;
+    font-size: 2.4rem;
+  }
+  .border-bottom{
+  border: 1px solid white;
+    margin: -80px auto 50px auto;
+    width: 50%;
+  }
+  
+  img{
+  display: block;
+    width:100%;
+    height: 400px;
+    border-radius: 3px;
+  }
+  .about{
+  text-align: center;
+    color: silver;
+  }
+  a{
+  text-decoration: none;
+  }
+  .projects p{
+  color: white;
+  }
+  .hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #0000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  }
+  .container{
+  background-color: #7393B3;
+    text-align: center;
+    padding: 1rem 2rem 5rem 2rem;
+  }
+  .head{
+  margin-top: 10px;
+  }
+  .grid{
+  display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+  }
+    footer{
+  width:100%;
+      text-align: right;
+      background-color: #0000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+      padding: 40px;
+      font-size: 2rem;
+      color: white;
+      border-top: 2px solid red;
+  }
+  .about{
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  @media(max-width: 600px){
+    .grid{display:flex;
+  flex-direction: column;
+  }
+      .container{
+  padding: 10px 8px 30px 8px;
+    }
+      img{
+  height: 300px;
+  }
+  li a:hover{
+  background-color: #1A5276;
+  }
+  }
+  @media(max-width: 600px){
+    ul{
+  display: flex;
+      justify-content:center;
+      padding: 5px;
+  }
+  }
+  .contact{
+    background-color: #0000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sub-heading{
+  font-size: 70px;
+    font-weight: bold;
+  }
+  .bold{
+    font-size: 25px;
+  font-weight: light;
+    color: white;
+    font-style: oblique;
+    margin-top: 5px;
+  }
+  
+  
+  @media(max-width: 600px){
+   
+    .contact-links i{
+      padding-left: 4px;
+  }
+    .contact-info{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      max-width: 700px;
+      margin-left: 2px;
+  }
+    
+    .sub-heading{
+  font-size: 30px;
+  }
+    footer{
+  width:100%;
+      text-align: right;
+      background-color: #0000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+      padding: 20px;
+      font-size: 2rem;
+      color: white;
+      border-top: 2px solid red;
+    }
+    .hero{
+  height: 200vh;
+  }
+  footer > p{
+  font-size: 1rem;
+    color: white;
+  }
+  h1, h2{
+  font-family: Georgia, serif;
+  }
+  
+    
+  }
